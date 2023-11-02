@@ -2,26 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+    font-family: 'REM-Regular';
+    src: url('../../public/fonts/REM-Regular.ttf');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+    font-family: 'REM-Bold';
+    src: url('../../public/fonts/REM-Bold.ttf');
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+    font-family: 'REM-Light';
+    src: url('../../public/fonts/REM-Light.ttf');
 }
+
+.r-reg {
+    font-family: 'REM-Regular';
+}
+
+.r-bold {
+    font-family: 'REM-Bold';
+}
+
+.r-light {
+    font-family: 'REM-Light';
+}
+
+p{
+    font-family: REM-Light;
+    font-size: 0.93rem;
+}
+
+
+.circle {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+

@@ -1,0 +1,8 @@
+.heroBanner {
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url("../../../../public/images/hammersmith-hero-banner.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

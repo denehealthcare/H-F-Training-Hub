@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    background-image:  url("../../../../public/images/contact-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 139, 146, 0.69);
+    /* Specify the color and opacity of the overlay */
+    z-index: 2;
+
+}
+
+.test{
+    position: relative;
+    z-index: 3;
+}
+
