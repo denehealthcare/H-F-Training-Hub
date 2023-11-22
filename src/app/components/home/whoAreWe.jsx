@@ -1,4 +1,4 @@
-import styles from './WhoAreWe.module.css'
+import styles from './whoAreWe.module.css';
 
 export default function WhoAreWe(){
 
