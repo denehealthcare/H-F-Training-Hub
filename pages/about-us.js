@@ -1,4 +1,5 @@
-import Layout from "@/app/components/layout/layout"
+import Layout from "@/app/components/layout/layout";
+import Link from "next/link";
 
 export default function aboutUs(){
 
@@ -97,9 +98,15 @@ export default function aboutUs(){
 
                             </div>
 
-                            <button className="bg-[#3EAFA8] px-[20px] py-[10px] text-white r-reg rounded-[50px]">
-                                Upcoming events
-                            </button>
+
+                            <Link href={'/events'}>
+                            
+                                <button className="bg-[#3EAFA8] hover:bg-[#379992] px-[20px] py-[10px] text-white r-reg rounded-[50px]">
+                                    Upcoming events
+                                </button>
+
+                            </Link>
+
 
 
                         </div>
