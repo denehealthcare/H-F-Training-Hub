@@ -26,7 +26,9 @@ export default function learningAndDevelopment(){
             <div className="max-w-[1440px] m-auto mt-[50px] sm:mt-[80px] sm:pb-[80px]">
                 <div className="ps-[3vw] pe-[3vw] sm:ps-[5vw] sm:pe-[5vw] xl:ps-[162px] xl:pe-[162px]">
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                        Please see below a list of our upcoming training and events. Some training and courses are hosted on <a href="https://www.nwllearning.nhs.uk/login/index.php" className="text-blue-600 hover:text-blue-900" target="_blank">NWL Learning Hub</a> or <a href="https://www.e-lfh.org.uk/" className="text-blue-600 hover:text-blue-900" target="_blank">elearning for Health</a>. If you’re unable to find what you’re looking for please email us and we will be happy to help.    
+                    </p>
 
 
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[20px] sm:gap-[20px] lg:gap-[30px] xl:gap-[40px] mt-[70px]">

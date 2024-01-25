@@ -1,4 +1,5 @@
 import styles from './hero.module.css';
+import Link from 'next/link';
 
 export default function Hero(){
 
@@ -20,13 +21,15 @@ export default function Hero(){
                             </h2>
     
                             <div className='mt-6 md:mt-6 max-w-[500px]'>
+
                                 <p className='r-light text-white text-md md:text-lg'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                                    The Hammersmith and Fulham Training Hub team consists of experienced Practice Nurses, GPs and project management support. We work closely with general practice to share best practice and support the learning and development of staff across Hammersmith and Fulham.
                                 </p>
+
                             </div>
         
                             <div className='mt-6 mb-1 md:mt-4 md:mb-4 text  text-center md:text-right text-lg md:text-lg'>
-                                <a href="/" className='text-white underline underline-offset-4'>Discover our learning programmes</a>
+                                <Link href="/learning" className='text-white underline underline-offset-4'>Discover our learning programmes</Link>
                             </div>
         
                         </div>

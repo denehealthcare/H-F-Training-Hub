@@ -13,6 +13,11 @@
 }
 
 @font-face {
+    font-family: 'REM-Semibold';
+    src: url('../../public/fonts/REM-SemiBold.ttf');
+}
+
+@font-face {
     font-family: 'REM-Light';
     src: url('../../public/fonts/REM-Light.ttf');
 }
@@ -23,6 +28,10 @@
 
 .r-bold {
     font-family: 'REM-Bold';
+}
+
+.r-semibold {
+    font-family: 'REM-Semibold';
 }
 
 .r-light {
