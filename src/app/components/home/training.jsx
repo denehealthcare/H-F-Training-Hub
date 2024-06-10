@@ -18,7 +18,7 @@ export default function Training(){
             
                                 <p className='text-white r-light text-md pb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                  
-                                <Link href={'about-us'}>
+                                <Link href={'/learning'}>
                                 
                                     <button
                                         type="button"

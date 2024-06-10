@@ -117,7 +117,7 @@ export default function aboutUs(){
                             </div>
 
                             <div className="sm:max-w-[300px] text-center">
-                                <div className="r-bold text-[#3EAFA8] text-[2rem] lg:text-[2.5rem]">1200+</div>
+                                <div className="r-bold text-[#3EAFA8] text-[2rem] lg:text-[2.5rem]">1500+</div>
                                 <p className="text-center text-[20px]">General practice professional trained by the hammersmith training hub.</p>
                             </div>
 
