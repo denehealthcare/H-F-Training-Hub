@@ -1,7 +1,7 @@
 import Layout from "@/app/components/layout/layout";
 import ResponsiveContainer from "@/app/components/layout/responsiveContainer";
 
-export default function AdvancedPractice() {
+export default function PCNLearningEnviorments() {
 
     return (
 
