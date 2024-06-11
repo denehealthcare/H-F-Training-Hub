@@ -30,7 +30,7 @@ export default function Navbar() {
     
                             {/* Logo */}
                             <Link href={'/'}>
-                                Logo Here
+                                <img src="/images/ham-logo.jpg" className='max-w-[250px]'/>
                             </Link>
     
                             <nav className='hidden  lg:flex gap-[70px]'>
